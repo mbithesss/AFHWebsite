@@ -1,0 +1,549 @@
+/* Master Styles*/ 
+
+body{
+    margin: 0px;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+  
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand h1{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:poppins;
+    color: #333;
+    float: right;
+    align-items: center;
+    
+}
+
+.brand img{
+    height: 60px;
+    width: 70px;
+    float: left;
+    
+}
+
+.nav-wrapper-content{ 
+   position: fixed; 
+   top: 0; left: 0; right: 0;
+   background:#fff;
+   box-shadow: 0 5px 10px rgba(0, 0 , 0 ,.1);
+   padding: 2px 7%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 1000; 
+     
+}
+
+.nav-wrapper-content ul {
+   list-style: none;
+
+}
+
+.nav-wrapper-content ul li{
+    position: relative;
+    float: right;
+}
+
+.nav-wrapper-content ul li a{
+    font-size: 17px;
+    padding: 10px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+
+}
+
+.nav-wrapper-content ul li a:hover {
+    background: #333;
+    color: #fff;
+   
+}
+
+
+.dropdown-menu{
+    display: none;
+}
+
+.nav-wrapper-content ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+}
+
+.dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu ul li{
+    width: 150px;
+    padding: 2px;  
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    margin-right: 1px;
+    line-height: 8px;
+    
+
+}
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.container{
+    padding-top: 100px;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+ /*Portfolio Styles*/
+.portfolio-items-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper{
+    position: relative;
+}
+
+.portfolio-img-background{
+    transition: 0.5s;
+    height: 350px;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.portfolio-img-background:hover{
+    transform:scale(0.9);
+    z-index: 2;
+    
+}
+
+.Welcoming-phrase{
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-left: 530px;
+    font-size: 20px;
+    font-family:'poppins', sans-serif;
+ }
+         
+.Welcoming-phrase h1{
+    color:  rgb(226, 112, 19);
+}
+
+.Closing-phrase{
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: 900;
+    font-family:'poppins', sans-serif;
+    max-width: 800px;
+}
+
+.section{
+    padding-top: 0;
+}
+
+.text{
+     padding-bottom: 50px;
+     font-size: 1.2vw;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-right: 50px;
+}
+
+
+.text .icon{
+    color:  rgb(18, 146, 35);
+    height: .5px;
+    width: auto;
+}
+
+.image{
+       float: left;
+       height: 400px;
+       width: 500px;
+       display: flex;
+       padding-bottom: 50px;  
+       margin-left: 30px;   
+       max-width: 100%;
+}
+
+
+
+.container3-content{
+padding-bottom: 150px;
+align-items: center;
+padding-top: 0px;
+
+}
+
+.container3-content .image2{
+float: right;
+display: flex;
+margin-right: 200px;
+}
+
+.container3-content .text2{
+   margin-left: 200px;
+   display: flex;
+   max-width: 400px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   padding-top: 0;
+}
+
+.welcoming-phrase2{
+    font-weight: 900;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin: 0;
+    margin-left: 200px;
+    font-family:'poppins', sans-serif;
+    color: purple;
+}
+
+
+.welcoming-phrase2 h1{
+    font-size: 22px;
+   
+  
+}
+.Container4-content{
+    margin-left: 50px;
+    padding-top: 80px;
+}
+
+.Container4-content p{
+    font-size: 20px;
+    width: 800px;
+}
+
+.Container4-content h2{
+color:  rgb(252, 169, 45);
+font-size: 20px;
+}
+ 
+
+.container5{
+    padding-top: 5px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.container5 ul{
+    width: 400px;
+    position: relative;
+    
+}
+
+.container5 ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: rgb(201, 109, 34);
+    margin: 0 0 2em 0;
+    border-radius: 20px;
+    padding: 20px 0px;
+    
+    
+   
+}
+.container ul li span{
+    background:rgb(138, 100, 19);
+
+}
+
+.socials-intro{
+padding-top: 50px;
+text-align: center;
+}
+
+.social-menu{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.container2{
+    background-color:rgb(4, 4, 7);
+    color:#fff;
+    
+}
+
+.social-menu ul {
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform:translate(-50%, -50%);
+    display: flex;
+}
+
+
+.social-menu ul li  {
+    list-style: none;
+    display: inline-flex;
+
+}
+.social-menu ul li .fa  {
+   
+    font-size: 30px;
+    margin: 0 15px;  
+    line-height: 60px;
+    transition: .6s;
+    color:rgb(189, 121, 163);
+
+}
+.social-menu ul li .bi  {
+    margin: 0 15px; 
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color:rgb(189, 121, 163);
+}
+
+.social-menu ul li svg{
+    position:relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    color:rgb(189, 121, 163);
+    text-align: center;
+    transition: .6%;
+    box-shadow: 0 5px 4px rgba(0, 0 , 0 ,.5);
+}
+
+
+.social-menu ul li a{
+    position:relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: .6%;
+    box-shadow: 0 5px 4px rgba(43, 15, 15, 0.5);
+}
+
+
+.social-menu ul li a:hover{
+    transform:translate(0, -10px);
+}
+
+.social-menu ul li svg:hover{
+    transform:translate(0, -10px);
+}
+.socials-intro{
+    text-align: center;
+}
+
+.wrapper{ 
+    padding: 40px 40px;
+    background:rgb(148, 98, 144);
+}
+
+.Roadmap-intro{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.Roadmap-wrapper{
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 10px;
+    line-height: 13px;
+    
+}
+
+.Roadmap-wrapper .row{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.Roadmap-wrapper .row section{
+background: #fff;
+border-radius: 5px;
+width: calc(48% - 40px);
+padding: 10px;
+position: relative;
+
+}
+
+.row section .icon{
+    position: absolute; 
+    background: rgb(146, 56, 14);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    border-top: 10px;
+}
+
+.row-1 section .icon{
+    right: -58px;   
+}
+
+.row-2 section .icon{
+    left: -58px;   
+}
+
+.row-3 section .icon{
+    right: -58px;   
+}
+
+
+.Roadmap-wrapper .row section::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border-top: 50px;
+    top: 18px;
+    /*z-index: -1;*/
+    transform: rotate(45deg);
+}
+
+.row-1 section::before{
+    right: -7px;
+}
+
+.row-2 section::before{
+    left: -7px;
+}
+
+.row-3 section::before{
+    right: -7px;
+}
+
+
+.Roadmap-wrapper .center-line{
+    position: absolute;
+    height: 118%;
+    width: 4px;
+    background: #fff;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.Roadmap-wrapper .row-1{
+    justify-content: flex-start;
+}
+
+.Roadmap-wrapper .row-2{
+    justify-content: flex-end;
+}
+
+.Roadmap-wrapper .row-3{
+    justify-content: flex-start;
+}
+
+.row section .details{
+    display: flex;   
+}
+
+.row section .details .title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row section ul li{
+    margin: 10px 0 17px 0;
+}
+
+
+.footer{
+    left: 0;
+    right: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    font-family: "open Sans";
+    padding-top: 2px;
+    background: rgb(6, 6, 32);
+    color: #fff;
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 100;
+}
+
+.footer-content h3{
+    padding-bottom: 0%;
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 2px;
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    width: 100vw;
+    padding: 1px 0;
+    text-align: center;
+    
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+
+.Closing-phrase{
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+    background: rgb(251, 245, 252);
+
+    
+}
+
+.Closing-phrase p{
+    text-align: center;
+    color: rgb(138, 100, 19);
+    padding: 0px 0px;
+}
+
