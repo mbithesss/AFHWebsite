@@ -620,10 +620,10 @@ position: relative;
    nav ul li a{
        background: transparent;
        color: #333;
+       font-size: 18px;
   }
    nav ul li a:hover, nav ul li a:visited:hover {
-      background-color: rgb(209, 170, 43);
-       color: #333;
+    color: rgb(209, 170, 43);
   }
    .navbar-dropdown li a{
     background-color: rgba(132, 122, 122, 0.5);
@@ -638,6 +638,7 @@ position: relative;
    nav ul li ul li a {
        padding: 15px;
        line-height: 20px;
+       text-transform: capitalize;
   }
    .navbar-dropdown {
        position: absolute;
@@ -841,7 +842,7 @@ position: relative;
 }
 
 .fade img{
-    height: 100vh;
+    height: 80vh;
 }
 
 @keyframes fade {
