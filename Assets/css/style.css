@@ -1,7 +1,9 @@
 /* Master Styles*/ 
 
 body{
-    margin: 0px;  
+    margin: 0;  
+    padding: 0;
+    overflow-x: hidden;
 }
 
 html{
@@ -708,7 +710,7 @@ position: relative;
 }
 
 .fade img{
-    height: 100vh;
+    height: 80vh;
 }
 
 @keyframes fade {
