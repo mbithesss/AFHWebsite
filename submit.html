@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <section class="navigation">
+    <div class="nav-container">
+        <div class="brand">
+            <img class="img" src="./Images/AFHeditedlogo-removebg-preview.png" width="20%" height="20%">
+            <h1>African<span style="color: rgb(209, 170, 43);">Heritage</span></h1>
+        </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="#!">HOME</a>
+          </li>
+          <li>
+            <a href="#!">HOW IT WORKS</a>
+          </li>
+
+          <li>
+            <a href="#!">WHITEPAPER</a>
+          </li>
+          <li>
+            <a href="#!">SERVICES</a>
+            <ul class="navbar-dropdown">
+              <li>
+                <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
+              </li>
+              <li>
+                <a href="#">Add AFH to Wallet</a>
+              </li>
+              <li>
+                <a href="#">Collaborations</a>
+              </li>
+              <li>
+                <a href="./submit.html" >Submit Applications</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#!">ABOUT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+    <form action="https://getform.io/f/21621c35-468f-4656-8503-271878983becm" method="post" enctype="multipart/form-data">
+        <h2>Submit a request</h2>
+
+        <div>
+          <label for="email">Email address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+
+
+           <label for="username">Username or wallet address:</label>
+           <input type="text" name="username" placeholder="Decentralized crypto wallet e.g Metamask" required>
+
+        </div>
+
+        <div>
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" rows="10" cols="50" required></textarea>
+        </div>
+
+        <div>
+          <label for="attachment">Attachments (optional):</label>
+          <input type="file" id="attachment" name="attachment">
+        </div>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <script src="script3.js"></script>
+</body>
+</html>
+
