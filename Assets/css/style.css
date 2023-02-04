@@ -501,29 +501,25 @@ position: relative;
 
 .footer-content{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-right: 100px;
     font-weight: 100;
 }
 
-.footer-content h3{
-    padding-bottom: 0%;
-    font-size: 1.8rem;
-    font-weight: 100;
-    text-transform: capitalize;
-    line-height: 2px;
+.footer-content h4{
+ color: purple;
 }
 
 
-.footer-content p{
+/* .footer-content p{
     max-width: 500px;
     margin: 10px auto;
     line-height: 20px;
     font-size: 14px;
-}
+} */
 
 .footer-bottom{
     width: 100vw;
@@ -591,12 +587,12 @@ position: relative;
     color: #333;
     align-items: center;
   }
-  
+
    .brand a, .brand a:visited {
        color: #ffffff;
        text-decoration: none;
   }
-   
+
    nav {
         width: 50%;
        float: right;
@@ -660,7 +656,7 @@ position: relative;
        height: 55px;
        width: 70px;
   }
-  
+
    #navbar-toggle {
        position: absolute;
        left: 18px;
@@ -755,7 +751,7 @@ position: relative;
    }
 }
 
-  
+
   @media only screen and (max-width: 500px) {
     .img{
       display: none;
@@ -780,7 +776,7 @@ position: relative;
         align-items: left !important ;
     }
   }
-  
+
   /* END OF NAVBAR */
 
 
