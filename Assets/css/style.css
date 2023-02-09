@@ -493,6 +493,8 @@ position: relative;
     right: 0;
     padding: 0%;
     column-count: 3;
+    column-gap: normal;
+    column-lenght: 0px;
     box-sizing: border-box;
     height: auto;
     width: 100vw;
