@@ -243,9 +243,9 @@ font-size: 20px;
     }
 }
 
-.content-about{
+/* .content-about{
     color: red;
-}
+} */
 
 .container5{
     padding-top: 5px;
@@ -492,6 +492,7 @@ position: relative;
     left: 0;
     right: 0;
     padding: 0%;
+    column-count: 3;
     box-sizing: border-box;
     height: auto;
     width: 100vw;
