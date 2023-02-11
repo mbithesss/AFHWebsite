@@ -497,59 +497,41 @@ position: relative;
 @media only screen and (max-width: 850px) {
 
 }
+/* css-footer */
 
-.footer{
-    left: 0;
-    right: 0;
-    padding: 0%;
-    column-count: 3;
-    column-gap: normal;
-    column-length: 0px;
-    box-sizing: border-box;
-    height: auto;
-    width: 100vw;
-    font-family: "open Sans";
-    padding-top: 2px;
-    background: rgb(6, 6, 32);
-    color: #fff;
-
+.footer-section{
+    background-color: #000;
 }
 
-.footer-content{
-    display: flex;
-    align-items: flex-start;
+#information {
+    display: block;
     justify-content: center;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 100px;
-    font-weight: 100;
-}
-
-.footer-content h4{
- color: purple;
-}
-
-
-/* .footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 20px;
-    font-size: 14px;
-} */
-
-.footer-bottom{
-    width: 100vw;
-    padding: 1px 0;
     text-align: center;
-
+    padding: 50px;
 }
 
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+#information h1 {
+    color: white;
+    font-size:xx-large;
 }
 
+#information p{
+    color: #fff;
+    font-size: larger;
+}
+
+.more-info{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info{
+    margin-right: 100px;
+    color: #fff;
+}
 
 
 
