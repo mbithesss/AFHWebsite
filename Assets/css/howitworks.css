@@ -1,6 +1,6 @@
 .howitworks{
     display: flex;
-    padding: 20px 80px;
+    padding: 60px 80px;
     width: 100%;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .welcoming{
-    color: purple;
+    color: #cf6915;
     font-size: 32px;
     text-align: center;
     text-transform: capitalize;
@@ -25,6 +25,8 @@
 }
 .image2{
     width: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
     padding: 0 40px;
 }
 
