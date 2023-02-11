@@ -6,7 +6,7 @@
   }
 body,html{
     scroll-behavior: smooth;
-    background: rgba(128,128,128, .2);
+    background: rgba(128,128,128, .2);  
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
@@ -124,19 +124,21 @@ body,html{
      padding-bottom: 50px;
 }
 
-.header{
-    font-weight: 600;
-    font-size: 25px;
-}
+
 .text-1{
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 
-.text .icon{
-    color:  rgb(18, 146, 35);
-    height: .5px;
+.text .header i{
+    height: .1px;
     width: auto;
+    /* color:#cf6915; */
+}   
+
+.text .header i fa-earth-africa{
+    color: rgb(84, 84, 189);
 }
 
 .image{
@@ -180,7 +182,7 @@ body,html{
 }
 .Closing-phrase p{
     text-align: center;
-    color: rgb(138, 100, 19);
+    color: #cf6915;
     padding: 0px 0px;
     font-family:'poppins', sans-serif;
     font-size: 30px;
@@ -216,14 +218,16 @@ margin-right: 200px;
    padding-top: 0;
 }
 
+.content-about{
+    margin-top: 5%;
+}
+
 .welcoming-phrase2{
     font-weight: 900;
-    padding-top: 100px;
     padding-bottom: 0;
-    margin: 0;
-    margin-left: 200px;
     font-family:'poppins', sans-serif;
     color: purple;
+    background-color: red;
     font-size: 22px;
 }
 
@@ -250,9 +254,10 @@ font-size: 20px;
     }
 }
 
-/* .content-about{
-    color: red;
-} */
+ .content-about{
+    background-color: red;
+    margin-top: 50%;
+} 
 
 .container5{
     padding-top: 5px;
@@ -388,8 +393,8 @@ text-align: center;
 }
 
 .Roadmap-wrapper .row section{
-/* background-color: #b1601e; */
-background-color: white;
+background-color: #f59f59;
+/* background-color: white; */
 border-radius: 5px;
 width: calc(48% - 40px);
 padding: 10px;
@@ -398,7 +403,7 @@ position: relative;
 }
 
  .title-roadmap{
-    color: fff;
+    color: black;
 }
 
 .row section .icon{
@@ -414,24 +419,27 @@ position: relative;
 }
 
 .row-1 section .icon{
-    right: -72px;
+    right: -75px;
 }
 
 .row-2 section .icon{
-    left: -72px;
+    left: -75px;
 }
 
 .row-3 section .icon{
-    right: -72px;
+    right: -75px;
 }
 
+.Roadmap-wrapper ul li i{
+    color: #973304;
+}
 
 .Roadmap-wrapper .row section::before{
     position: absolute;
     content: "";
     height: 15px;
     width: 15px;
-    background: #cf6915;;
+    background: #f8a867;
     border-top: 50px;
     top: 18px;
     /* z-index: -0.5; */
@@ -453,9 +461,9 @@ position: relative;
 
 .Roadmap-wrapper .center-line{
     position: absolute;
-    height: 111%;
+    height: 118%;
     width: 4px;
-    background: #fff;
+    background: #da4e0d;
     left: 50%;
     transform: translate(-50%);
 }
@@ -828,7 +836,30 @@ position: relative;
     font-weight: bolder;
     color: rgb(0, 0, 0, .8); /* change text color to black */
     margin-top: 10px; /* add some margin between title and subtitle */
+
   }
+
+  .partner{
+    margin-top: 100px;
+  }
+
+  .btn{
+   font-size: 24px;
+   font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 15px 15px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #cf6915;
+
+  }
+
+  .btn:hover{
+    background-color: #fff;
+    color: black;
+
+  }
+
 
 /* Caption text */
 /* .background {
@@ -889,3 +920,30 @@ position: relative;
 }
 
 /* END OF CAROUSEL STYLES */
+
+/* START OF ABOUT */
+.center{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #cf6915;
+}
+
+.benefits{
+    margin: 20px 60px;
+}
+
+.benefits ul{
+    display: flex;
+}
+
+.benefits ul li{
+    list-style-type: none;
+    width: 50%;
+    /* background-color: #f8a867; */
+    background-image: url("../Images/UI\ AFH2.jpg");
+    padding: 20px 40px;
+    margin: 10px 40px;
+}
+
