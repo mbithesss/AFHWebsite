@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body,html{
+    scroll-behavior: smooth;
+    background: rgba(128,128,128, .2);  
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+.the-how{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #cf6915;
+}
+.link{
+    text-align: left;
+    padding: 10px 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: blue;
+    padding-left: 20px;
+}
+.procedure{
+    margin: 20px 60px;
+}
+.procedure ul{
+    display: flex;
+}
+.procedure ul li{
+    list-style-type: none;
+    width: 100%;
+    background-color: rgba(128,128,128, .5);
+    padding: 4% 5%;
+    margin: 10px 40px;
+    border-radius: 30px;
+}
+.procedure ul li span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+.procedure ul li:hover{
+    background-color: rgba(245,159,89,.5);
+}
+/* .lo{
+    color: aqua;
+} */
