@@ -141,6 +141,21 @@ body,html{
     color: rgb(84, 84, 189);
 }
 
+.fa-earth-africa{
+    color: green;
+}
+
+.fa-rocket{
+    color:red;
+}
+
+.fa-wallet{
+    color: brown;
+}
+
+.fa-handshake{
+    color: brown;
+}
 .image{
        float: center;
        padding: 5px;
@@ -617,6 +632,10 @@ position: relative;
 .info p a{
   color: #fff;
   text-decoration: none;
+}
+
+.info p a:hover{
+    color:#973304;
 }
 
 .info h3{
