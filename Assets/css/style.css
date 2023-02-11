@@ -505,7 +505,7 @@ position: relative;
 
 #information {
     display: block;
-    justify-content: center;
+    justify-content: left;
     text-align: center;
     padding: 50px;
 }
