@@ -132,21 +132,18 @@ body,html{
 
 
 .text .header i{
-    height: .1px;
+    font-size: 20px;
     width: auto;
     /* color:#cf6915; */
 }   
 
-.text .header i fa-earth-africa{
-    color: rgb(84, 84, 189);
-}
 
 .fa-earth-africa{
     color: green;
 }
 
 .fa-rocket{
-    color:red;
+    color:rgb(235, 74, 74);
 }
 
 .fa-wallet{
@@ -154,7 +151,7 @@ body,html{
 }
 
 .fa-handshake{
-    color: brown;
+    color: rgba(68, 4, 4, 0.507);
 }
 .image{
        float: center;
@@ -525,7 +522,7 @@ position: relative;
     content: "";
     height: 15px;
     width: 15px;
-    background: #f8a867;
+    background:  #f59f59;;
     border-top: 50px;
     top: 18px;
     /* z-index: -0.5; */
@@ -601,12 +598,14 @@ position: relative;
     color: #cf6915;
     font-size:xx-large;
     text-align: center;
+    padding: 10px 0;
 }
 
 #information p{
     color: #fff;
     font-size: 17px;
 }
+
 
 .footer-1{
   text-align: left;
@@ -955,6 +954,7 @@ position: relative;
     padding: 10px 20px;
     color: #fff;
     background-color: #cf6915;
+    text-decoration: none;
 
   }
 
