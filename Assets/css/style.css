@@ -505,14 +505,15 @@ position: relative;
 
 #information {
     display: block;
-    justify-content: left;
-    text-align: left;
+    /* justify-content: center; */
+  
     padding: 50px;
 }
 
 #information h1 {
     color: white;
     font-size:xx-large;
+    text-align: center;
 }
 
 #information p{
@@ -520,6 +521,9 @@ position: relative;
     font-size: larger;
 }
 
+.footer-1{
+  text-align: left;
+}
 .more-info{
     display: flex;
     flex-direction: row;
