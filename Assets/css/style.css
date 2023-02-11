@@ -920,3 +920,39 @@ position: relative;
 }
 
 /* END OF CAROUSEL STYLES */
+
+/* START OF ABOUT */
+.center{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #cf6915;
+}
+
+.benefits{
+    margin: 20px 60px;
+}
+
+.benefits ul{
+    display: flex;
+}
+
+.benefits ul li{
+    list-style-type: none;
+    width: 50%;
+    background-color: rgba(128,128,128, .5);
+    padding: 4% 5%;
+    margin: 10px 40px;
+}
+
+.benefits ul li:hover{
+    background-color: rgba(245,159,89,.5);
+}
+
+.benefits ul li span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
