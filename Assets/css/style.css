@@ -6,7 +6,7 @@
   }
 body,html{
     scroll-behavior: smooth;
-    background-color: #FFFFFF;
+    background: rgba(128,128,128, .2);  
     overflow-x: hidden;
     overflow-y: auto;
     margin: 0;
@@ -131,18 +131,21 @@ body,html{
 }
 
 
-.text .icon{
+.text .header i{
     height: .1px;
     width: auto;
-    color:#cf6915;
+    /* color:#cf6915; */
 }   
+
+.text .header i fa-earth-africa{
+    color: rgb(84, 84, 189);
+}
 
 .image{
        float: center;
        padding: 5px;
        width:40%;
        border-radius: 50%;
-
 }
 
 
@@ -150,7 +153,6 @@ body,html{
 .image img{
     width:60%;
     margin-left: 10%;
-    /* height: 60vh; */
 }
 
 @media only screen and (max-width: 850px) {
@@ -173,11 +175,18 @@ body,html{
 }
 }
 .Closing-phrase{
-    font-size: 30px;
-    font-weight: 900;
-    font-family:'poppins', sans-serif;
     width: 100%;
     padding: 20px 60px;
+    margin: auto;
+    align-items: center;
+}
+.Closing-phrase p{
+    text-align: center;
+    color: #cf6915;
+    padding: 0px 0px;
+    font-family:'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
 }
 @media only screen and (max-width: 850px) {
     .Closing-phrase{
@@ -209,14 +218,16 @@ margin-right: 200px;
    padding-top: 0;
 }
 
+.content-about{
+    margin-top: 5%;
+}
+
 .welcoming-phrase2{
     font-weight: 900;
-    padding-top: 100px;
     padding-bottom: 0;
-    margin: 0;
-    margin-left: 200px;
     font-family:'poppins', sans-serif;
     color: purple;
+    background-color: red;
     font-size: 22px;
 }
 
@@ -243,9 +254,10 @@ font-size: 20px;
     }
 }
 
-/* .content-about{
-    color: red;
-} */
+ .content-about{
+    background-color: red;
+    margin-top: 50%;
+} 
 
 .container5{
     padding-top: 5px;
@@ -285,78 +297,70 @@ text-align: center;
 }
 
 .social-menu{
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 50px 0;
+}
+
+.social-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.social-menu ul li{
+    list-style: none;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.social-menu ul li a{
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.social-menu ul li a:hover{
+    background-color: #000;
+}
+
+.social-menu ul li a i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-menu ul li .discord{
+    background-color: #7289da;
+}
+
+.social-menu ul li .instagram{
+    background-color:	rgb(255, 100, 100);
+}
+
+.social-menu ul li .twitter{
+    background-color:	#1DA1F2;
+}
+
+.social-menu ul li .telegram{
+    background-color:	#0088cc;
 }
 
 .container2{
-    background-color:rgb(4, 4, 7);
-    color:#fff;
-
+    background-color:rgba(128,128,128, .8);
 }
 
-.social-menu ul {
-    position: absolute;
-    left: 50%;
-    padding: 0;
-    margin: 0;
-    transform:translate(-50%, -50%);
-    display: flex;
+.comm{
+    color: #cf6915;
+    font-size: 34px;
+    font-weight: 900;
+    padding: 10px 0;
 }
 
-
-.social-menu ul li  {
-    list-style: none;
-    display: inline-flex;
-
-}
-.social-menu ul li .fa  {
-
-    font-size: 30px;
-    margin: 0 15px;
-    line-height: 60px;
-    transition: .6s;
-    color:rgb(189, 121, 163);
-
-}
-.social-menu ul li .bi  {
-    margin: 0 15px;
-    font-size: 30px;
-    line-height: 60px;
-    transition: .6s;
-    color:rgb(189, 121, 163);
-}
-
-.social-menu ul li svg{
-    position:relative;
-    display: block;
-    width: 60px;
-    height: 60px;
-    color:rgb(189, 121, 163);
-    text-align: center;
-    transition: .6%;
-    box-shadow: 0 5px 4px rgba(0, 0 , 0 ,.5);
+.join{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-transform: capitalize;
 }
 
 
-.social-menu ul li a{
-    position:relative;
-    display: block;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    transition: .6%;
-    box-shadow: 0 5px 4px rgba(43, 15, 15, 0.5);
-}
-
-
-.social-menu ul li a:hover{
-    transform:translate(0, -10px);
-}
-
-.social-menu ul li svg:hover{
-    transform:translate(0, -10px);
-}
 .socials-intro{
     text-align: center;
 }
@@ -364,8 +368,6 @@ text-align: center;
 .wrapper{
     padding: 10px 40px;
      background: rgba(128,128,128, .2);
-    
-
 }
 
 .Roadmap-intro{
@@ -551,20 +553,7 @@ position: relative;
 
 
 
-.Closing-phrase{
-    margin: auto;
-    align-items: center;
-    padding-top: 50px;
-    background: rgb(251, 245, 252);
 
-
-}
-
-.Closing-phrase p{
-    text-align: center;
-    color: rgb(138, 100, 19);
-    padding: 0px 0px;
-}
 
 /* START OF NAVBAR  */
 
@@ -847,7 +836,30 @@ position: relative;
     font-weight: bolder;
     color: rgb(0, 0, 0, .8); /* change text color to black */
     margin-top: 10px; /* add some margin between title and subtitle */
+
   }
+
+  .partner{
+    margin-top: 100px;
+  }
+
+  .btn{
+   font-size: 24px;
+   font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 15px 15px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #cf6915;
+
+  }
+
+  .btn:hover{
+    background-color: #fff;
+    color: black;
+
+  }
+
 
 /* Caption text */
 /* .background {
