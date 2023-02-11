@@ -52,3 +52,6 @@ body,html{
 /* .lo{
     color: aqua;
 } */
+.procedure ul li ul{
+    color: aqua;
+}
