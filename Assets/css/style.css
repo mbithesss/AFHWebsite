@@ -224,11 +224,83 @@ margin-right: 200px;
 
 .welcoming-phrase2{
     font-weight: 900;
-    padding: 5px 0;
-    /* font-family:'poppins', sans-serif; */
+    padding-top: 60px;
+    font-family:'poppins', sans-serif; 
     color: rgb(146, 56, 14);
-    font-size: 22px;
+    font-size: 45px;
+    text-align: center;
 }
+
+.section-11{
+  display: flex;
+  padding: 20px 80px;
+  width: 100%;
+}
+
+.section-11-2{
+    display: block;
+    width: 50%;
+    padding: 5% 0;
+}
+
+  .about-0 {
+  color: #cf6915;
+  font-size: 34px;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  }
+
+  .about-1{
+    line-height: 200%;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+.image-11{
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.image-11 img{
+  width: 100%;
+}
+
+.section-12{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.section-12-2{
+    display: block;
+    width: 50%;
+    padding: 10% 0;
+    margin-right: 5%;
+    line-height: 200%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.image-12{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.image-12 img{
+    width: 80%;
+    margin-top: 2%;
+}
+
+.about-3{
+    padding: 20px 60px;
+    font-size: 22px;
+    line-height: 200%;
+    text-align: center;
+}
+
 
 .Container4-content{
     margin-left: 50px;
@@ -538,12 +610,25 @@ position: relative;
     color: #fff;
 }
 
+.info p{
+  margin-top: 10px;
+}
+
+.info p a{
+  color: #fff;
+  text-decoration: none;
+}
+
 .info h3{
   color: #cf6915;
 }
 
-.icon-color i{
-  color:#cf6915;
+.fa-phone{
+  color:	#1DA1F2;
+}
+
+.fa-envelope{
+  color: red;
 }
 
 .closing-tag{
