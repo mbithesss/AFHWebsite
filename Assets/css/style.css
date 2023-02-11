@@ -923,9 +923,18 @@ position: relative;
 .benefits ul li{
     list-style-type: none;
     width: 50%;
-    /* background-color: #f8a867; */
-    background-image: url("../Images/UI\ AFH2.jpg");
-    padding: 20px 40px;
+    background-color: rgba(128,128,128, .5);
+    padding: 4% 5%;
     margin: 10px 40px;
+}
+
+.benefits ul li:hover{
+    background-color: rgba(245,159,89,.5);
+}
+
+.benefits ul li span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
 }
 
