@@ -39,7 +39,8 @@ form {
   
   label {
     display: block;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 24px;
     margin-bottom: 10px;
   }
   
@@ -71,7 +72,7 @@ form {
   }
   
   input::-webkit-input-placeholder {
-    font-size: 12px;
+    font-size: 16px;
     color: #333;
   }
   
@@ -97,8 +98,26 @@ form {
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, .5);
   }
-  
+
  input{
   background-color: rgba(255, 255, 255, .5);
  }
-  
+
+ .submit{
+  margin: 10px 40%;
+  background-color: #333;
+  color: #FFF;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 30px;
+  font-size: 26px;
+ }
+ 
+ .submit:hover{
+  background-color: #cf6915;
+ }
+ 
+ .h2{
+  font-size: 36px;
+  text-transform: capitalize;
+ }
