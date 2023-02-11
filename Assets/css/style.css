@@ -363,16 +363,15 @@ text-align: center;
 
 .wrapper{
     padding: 10px 40px;
-     background:rgb(148, 98, 144);
-    /*background-image: url("https://img.freepik.com/premium-photo/trade-trading-crypto-currency-coins-bitcoin-exchanges-invest-metaverse-stocks_10221-14662.jpg?w=900");
-    background-repeat: no-repeat;
-     background-size: cover; */
+     background: rgba(128,128,128, .2);
+    
 
 }
 
 .Roadmap-intro{
     padding-top: 0;
     text-align: center;
+    color: #cf6915;
 }
 
 
@@ -392,12 +391,17 @@ text-align: center;
 }
 
 .Roadmap-wrapper .row section{
-background: #fff;
+/* background-color: #b1601e; */
+background-color: white;
 border-radius: 5px;
 width: calc(48% - 40px);
 padding: 10px;
 position: relative;
 
+}
+
+ .title-roadmap{
+    color: fff;
 }
 
 .row section .icon{
@@ -413,15 +417,15 @@ position: relative;
 }
 
 .row-1 section .icon{
-    right: -58px;
+    right: -72px;
 }
 
 .row-2 section .icon{
-    left: -58px;
+    left: -72px;
 }
 
 .row-3 section .icon{
-    right: -58px;
+    right: -72px;
 }
 
 
@@ -430,10 +434,10 @@ position: relative;
     content: "";
     height: 15px;
     width: 15px;
-    background: #fff;
+    background: #cf6915;;
     border-top: 50px;
     top: 18px;
-    /*z-index: -1;*/
+    /* z-index: -0.5; */
     transform: rotate(45deg);
 }
 
@@ -452,7 +456,7 @@ position: relative;
 
 .Roadmap-wrapper .center-line{
     position: absolute;
-    height: 118%;
+    height: 111%;
     width: 4px;
     background: #fff;
     left: 50%;
@@ -475,12 +479,14 @@ position: relative;
     display: flex;
 }
 
-.row section .details .title{
+.row section .details .title-roadmap{
     font-size: 22px;
     font-weight: 600;
+    columns: #fff;
 }
 
 .row section ul li{
+    list-style: none;
     margin: 10px 0 17px 0;
 }
 
@@ -494,7 +500,7 @@ position: relative;
     padding: 0%;
     column-count: 3;
     column-gap: normal;
-    column-lenght: 0px;
+    column-length: 0px;
     box-sizing: border-box;
     height: auto;
     width: 100vw;
