@@ -17,6 +17,7 @@ body,html{
     font-size: 34px;
     font-weight: 700;
     color: #cf6915;
+    text-transform: capitalize;
 }
 .link{
     text-align: left;
@@ -31,12 +32,13 @@ body,html{
 }
 .procedure ul{
     display: flex;
+    color: black;
 }
 .procedure ul li{
     list-style-type: none;
     width: 100%;
     background-color: rgba(128,128,128, .5);
-    padding: 4% 5%;
+    padding: 2% 4%;
     margin: 10px 40px;
     border-radius: 30px;
 }
@@ -49,6 +51,11 @@ body,html{
 .procedure ul li:hover{
     background-color: rgba(245,159,89,.5);
 }
-/* .lo{
-    color: aqua;
-} */
+
+.procedure ul li ul{
+    color: white;
+    padding: 1% 2%;
+}
+.procedure ul li i{
+    color: #000;
+}
