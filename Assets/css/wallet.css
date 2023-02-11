@@ -17,6 +17,7 @@ body,html{
     font-size: 34px;
     font-weight: 700;
     color: #cf6915;
+    text-transform: capitalize;
 }
 .link{
     text-align: left;
