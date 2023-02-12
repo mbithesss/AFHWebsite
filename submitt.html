@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="stylesheet" href="./Assets/css/howitworks.css">
-    <link rel="stylesheet" href="./Assets/css/wallet.css">
+    <link rel="stylesheet" href="./Assets/css/Submitarequest.css">
     <link rel="icon" type="image/x-icon" href="https://media.istockphoto.com/id/1056393782/photo/neon-light-alphabet-a-with-clipping-path.jpg?b=1&s=170667a&w=0&k=20&c=6yJxcAl1VgsuvDuXVID0g_KThG9Lpy7xdYd4iLOKPts=">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.js">
@@ -64,70 +64,40 @@
         </div>
       </section>
 
-      <div class="card">
-        <p class="how">How to add AFH to your decentarlized wallet.</p>
-        <div class="list">
-            <p class="token">To add a custom token to a decentralized wallet, follow these steps:</p>
-            <ul>
-                <li>Make sure the token is compatible with the blockchain that your wallet supports. For example, if your wallet supports the Ethereum blockchain, the token must be an ERC-20 token.</li>
-                <li>Obtain the token's contact address, symbol, and decimal places.You cna usually find this information on the token's website or through a blockchain explorer.</li>
-                <li>In your wallet, look for the option to add a custom token. This may be under settings, assets, or tokens.</li>
-                <li>Enter the token's contract address, symbol, and decimal placesm then save the information.</li>
-                <li>Your wallet should now display the custom token balance and allow you to send and recieve the token.</li>
-            </ul>
-            <p class="note"><span>Note: </span>The exact steps to add a custom token may vary depending on the wallet you are using. If you're having trouble adding a custom token, consult the wallet's support documentation or community forums. </p>
-        </div>
-        <div class="metamask">
-          <p class="the-how">How to add AFH to metamask</p>
-        </div>
-        <div class="link">
-          <p>The link to download Metamask wallet is: </p>
-        </div>
-        <div class="procedure">
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-1"></i></i><span>Open the Metamask app browser extension.</span></li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-2"></i><span>Ensure that you are connected to thr Binance Smart Chain network.</span></li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-3"></i><span>Clink on the "Add Token" button, usually locates under the "Tokens" section.</span></li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-4"></i>
-                <span>
-                 In the "Custom Token" section, enter the following information: 
-                 <ul class="lo">
-                  <li>Token Contract Address: Qx9e8F60BEd3751608C571eF1877e6475C05b1faC</li>
-                </ul>
-                <ul class="lo">
-                  <li>Token Symbol: AFH</li>
-                </ul>
-                <ul class="lo">
-                  <li>Decimals of Precision: 8</li>
-                </ul>
-                </span>
-              </li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-5"></i><span>Verify if the information is correct and click "Add".</span></li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-6"></i><span>The African Heritage Token [AFH] should now apper in your Metamask wallet under the "Tokens" section.</span></li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-7"></i><span>Regularly check your wallet balace to confirm the token has been added successfully.</span></li>
-            </ul>
-            <ul>
-              <li><i class="fa-sharp fa-solid fa-8"></i><span>If you encounter any issues, please refer to the customer support inforamtion provided for assistance.</span></li>
-            </ul>
-        </div>
-      </div> 
+      <div class="background">
+        <form action="https://getform.io/f/21621c35-468f-4656-8503-271878983becm" method="post" enctype="multipart/form-data">
+          <h2 class="h2">Submit a request</h2>
+  
+          <div>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+  
+          <div>
+             <label for="username">Username or wallet address:</label>
+             <input type="text" name="username" placeholder="Decentralized crypto wallet e.g Metamask" required>
+          </div>
+  
+          <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="10" cols="50"  placeholder="Tell us Something..." required>
+           </textarea>
+          </div>
+  
+          <div>
+            <label for="attachment">Attachments (optional):</label>
+            <input type="file" id="attachment" name="attachment">
+          </div>
+  
+          <button type="submit" class="submit">Submit</button>
+        </form>
+  
+      </div>
       
       <div class="footer">
         <div class="footer-section">
             <div id="information">
-
+  
                 <h1>DISCLOSURE</h1>
                 
                 <p class="footer-1">African Heritage Token is a utilitarian experimant.By purchasing AFH token, 
@@ -146,15 +116,15 @@
                 </div>
                 <div class="info">
                     <h3>Contact</h3>
-                    <p><a href="tel:+254716739995"> <i class="fa-solid fa-phone"></i> +254716739995</a></p>
-                    <p><a href="mailto:africanheritagetoken@gmail.com"><i class="fa-solid fa-envelope"></i> africanheritagetoken@gmail.com</a></p>
+                    <p class="icon-color"><i class="fa-solid fa-phone"></i>  +254 78 92 27 755</p>
+                    <p class="icon-color"><i class="fa-solid fa-envelope"></i> africanheritagetoken@gmail.com</p>
                 </div>
                 <div class="info">
-                    <h3>Navigation</h3>
-                    <p>Projects</p>
-                    <p>Company</p>
-                    <p>News</p>
-                    <p>Contact</p>
+                  <h3>Navigation</h3>
+                  <p><a href="./index.html">Home</a></p>
+                  <p><a href="#howitworks">How it Works</a></p>
+                  <p><a href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank">Whitepaper</a></p>
+                  <p><a href="./aboutt.html">About</a></p>
                 </div>
                 <div class="info">
                     <h3>Brands</h3>
@@ -175,5 +145,9 @@
         </div>
     </footer>
 
+      <script src="./Assets/js/script.js"></script>
+      <script src="./Assets/js/script2.js"></script>
+      <script src="./Assets/js/script3.js"></script>
+      <script src="./Assets/js/animation.js"></script>
 </body>
 </html>
