@@ -775,16 +775,15 @@ position: relative;
     }
 
     .more-info{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    padding: 10px 20px;
+        display: block;
+        padding: 10px 20px;
+        width: 400px;
     }
 
     .info{
+        padding: 10px 0;
         margin-right: 80px;
         color: #fff;
-        background-color: red;
     }
 
 }
