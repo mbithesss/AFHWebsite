@@ -194,11 +194,17 @@ body,html{
 }
 .Closing-phrase p{
     text-align: center;
-    color: #cf6915;
+    color:#973304;
     padding: 0px 0px;
     font-family:'poppins', sans-serif;
     font-size: 30px;
     font-weight: 900;
+    line-height: 200%;
+}
+
+.letters-right{
+    margin-top: 1%;
+
 }
 @media only screen and (max-width: 850px) {
     .Closing-phrase{
@@ -609,6 +615,7 @@ position: relative;
 
 .footer-1{
   text-align: left;
+  line-height: 150%;
 }
 .more-info{
     display: flex;
@@ -642,11 +649,20 @@ position: relative;
 }
 
 .fa-phone{
-  color:	#1DA1F2;
+    border-radius: 50%;
+    width: auto;
+    padding: 5px;
+    height: auto;
+    background-color: rgb(65, 171, 233);
+    
 }
 
 .fa-envelope{
-  color: red;
+    border-radius: 50%;
+    width: auto;
+    padding: 5px;
+    height: auto;
+    background-color: rgb(241, 67, 67);
 }
 
 .closing-tag{
@@ -1060,3 +1076,58 @@ position: relative;
     font-weight: 500;
 }
 
+/* Closing phrase Animation styling */
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 4.5em;
+    color: #402d2d;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  
+   
+  }
+  
+  .ml5 .line {
+   
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #402d2d;
+    transform-origin: 0.5 0;
+  }
+
+  .line1{
+    position: absolute;
+    left: 0;
+    top: -5%;
+   
+  }
+  
+  .line2{
+    position: absolute;
+    left: 0;
+    bottom: -5%;
+  }
+  .ml5 .ampersand {
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+
+  /* End of closing phrase styling */
