@@ -166,4 +166,11 @@ body,html{
     .procedure li ul li{
         margin: 10;
     }
+
+    /* .val .span ul li{
+        margin: 10;
+    }
+    #long{
+        max-width: 10%;
+    } */
 }
