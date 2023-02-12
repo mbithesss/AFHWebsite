@@ -25,8 +25,6 @@ form {
     background: rgb(128, 128, 128, .5); 
     border-radius: 10px;
     padding: 20px 80px;
-    /* border-radius: 10px; */
-    /* box-shadow: 0 0 10px #333; */
     position: relative; /* add position relative to form */
     z-index: 1; /* add a z-index of 1 to form to be on top of the background image */
   }
@@ -123,3 +121,14 @@ form {
   text-transform: capitalize;
   color: #cf6915;
  }
+
+ @media only screen and (max-width: 850px) {
+  .background{
+    background-image: url("https://img.freepik.com/free-vector/cashback-concept-style_23-2148458404.jpg?w=740&t=st=1676200556~exp=1676201156~hmac=c948e2f2ede76c8d5859ac669d88f40ed6a3e46b7af7f0d60c76e944f002dcf8");
+}
+
+form{
+  background: rgb(128, 128, 128, .8);
+}
+
+}
