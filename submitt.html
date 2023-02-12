@@ -20,49 +20,79 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
-    <section class="navigation">
-        <div class="nav-container">
-            <div class="brand">
-                <img class="img" src="./Assets/Images/AFHeditedlogo-removebg-preview.png">
-                <h1>African<span style="color: rgb(238, 187, 20);">Heritage</span></h1>
-            </div>
-          <nav>
-            <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
-            <ul class="nav-list">
-              <li>
-                <a href="./index.html">Home</a>
-              </li>
-              <li>
-                <a href="#contact">Contact Us</a>
-              </li>
-
-              <li>
-                <a href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank">Whitepaper</a>
-              </li>
-              <li>
-                <a href="#!">Services</a>
-                <ul class="navbar-dropdown">
-                  <li>
-                    <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
-                  </li>
-                  <li>
-                    <a href="./wallet.html">Add AFH to Wallet</a>
-                  </li>
-                  <li>
-                    <a href="#">Collaborations</a>
-                  </li>
-                  <li>
-                    <a href="./submitt.html" >Submit Applications</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="./aboutt.html">About</a>
-              </li>
-            </ul>
-          </nav>
+  <div class="containerr">
+    <header class="menu-header">
+      <nav class="navbars-mobile">
+        <div class="elewa-mobile">
+            <a class="african-logo">African<span style="color: rgb(238, 187, 20);">Heritage</span></a>
         </div>
-      </section>
+        <ul class="nav-menus">
+            <li class="nav-items">
+              <a class="nav-link" href="./index.html"  ariaCurrentWhenActive="page">Home</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#contact"  ariaCurrentWhenActive="page">Contact Us</a>
+            </li>
+            `<li class="nav-items">
+                <a class="nav-link" href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank"  ariaCurrentWhenActive="page">Whitepaper</a>
+            </li>
+            <li class="nav-items dropdown" style="float:left;">
+                <a class=" nav-link dropbtn">Services <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-content" style="left:0;">
+                  <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
+                  <a href="./wallet.html">Add AFH To Wallet</a>
+                  <a href="#">Collaboration</a>
+                  <a href="./submitt.html">Submit Application</a>
+                </div>
+              </li>
+            <li class="nav-items">
+              <a class="nav-link" href="./aboutt.html"  ariaCurrentWhenActive="page">About</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+  
+    
+  
+    <header class="header fixed-top">
+      <nav class="navbars">
+        <div class="border">
+          <div class="elewa-text">
+            <a routerLink="#" class="home-logo"><img src="./Assets/Images/AFHeditedlogo-removebg-preview.png" alt=""></a>
+            <a class="logo">African<span style="color: rgb(238, 187, 20);">Heritage</span></a>
+          </div>
+          <ul class="nav-menu">
+              <li class="nav-item one">
+                <a class="nav-link" href="./index.html"  ariaCurrentWhenActive="page">Home</a>
+              </li>
+              <li class="nav-item one">
+                <a class="nav-link" href="#contact"  ariaCurrentWhenActive="page">Contact Us</a>
+              </li>
+              <li class="nav-item one">
+                <a class="nav-link" href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank"  ariaCurrentWhenActive="page">Whitepaper</a>
+              </li>
+              <li class="nav-item one dropdown" style="float:left;">
+                <a class=" nav-link dropbtn">Services <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-content" style="left:0;">
+                  <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
+                  <a href="./wallet.html">Add AFH To Wallet</a>
+                  <a href="#">Collaboration</a>
+                  <a href="./submitt.html">Submit Application</a>
+                </div>
+              </li>
+              <li class="nav-item one">
+                <a class="nav-link" href="./aboutt.html"  ariaCurrentWhenActive="page">About</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
 
       <div class="background">
         <form action="https://getform.io/f/21621c35-468f-4656-8503-271878983becm" method="post" enctype="multipart/form-data">
