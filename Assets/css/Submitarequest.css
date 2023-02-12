@@ -85,11 +85,6 @@ form {
     color: #333;
   }
   
-  input:-moz-placeholder {
-    font-size: 12px;
-    color: #333;
-  }
-
   textarea {
     width: 100%;
     padding: 10px;
@@ -115,12 +110,6 @@ form {
  .submit:hover{
   background-color: #333;
  }
- 
- .h2{
-  font-size: 36px;
-  text-transform: capitalize;
-  color: #cf6915;
- }
 
  @media only screen and (max-width: 850px) {
   .background{
@@ -131,4 +120,37 @@ form{
   background: rgb(128, 128, 128, .8);
 }
 
+}
+
+@media only screen and (max-width: 500px) {
+  .background{
+    padding: 10px 20px;
+  }
+  form {
+    background: rgb(128, 128, 128, .5); 
+    padding: 20px 20px;
+  }
+  .h2{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #cf6915;
+   }
+     
+  label {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  
+  .submit{
+    margin: 0 26%;
+    font-size: 16px;
+    margin-top: 20px;
+   }
 }
