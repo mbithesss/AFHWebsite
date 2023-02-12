@@ -11,12 +11,68 @@ body,html{
     margin: 0;
     padding: 0;
 }
+
+.card{
+    width: 100%;
+    background-color: rgba(128,128,128, .5);
+    padding: 2% 4%;
+}
+
+.how{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 34px;
+    font-weight: 900;
+    color: #973304;
+    text-transform: capitalize;
+}
+
+.token{
+    text-align: left;
+    padding: 10px 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #412711;
+    padding: 10px;
+}
+
+.list{
+    list-style-type: none;
+    width: 92%;
+    background-color: rgba(128,128,128, .5);
+    padding: 2% 4%;
+    margin: 10px 40px;
+    border-radius: 30px;
+}
+
+/* .list:hover{
+    color: #cf6915;
+} */
+
+.list ul li{
+    list-style-type: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.note{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.note span{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
 .the-how{
     text-align: center;
     padding: 10px 0;
     font-size: 34px;
     font-weight: 700;
-    color: #cf6915;
+    color: #973304;
     text-transform: capitalize;
 }
 .link{
@@ -24,38 +80,90 @@ body,html{
     padding: 10px 0;
     font-size: 34px;
     font-weight: 700;
-    color: blue;
+    color: #412711;
     padding-left: 20px;
 }
 .procedure{
     margin: 20px 60px;
+    background-color: rgba(128,128,128, .5);
+    border-radius: 30px;
+    width: 90%;
+    padding: 2% 4%;
 }
-.procedure ul{
-    display: flex;
-    color: black;
-}
-.procedure ul li{
+
+.procedure li{
     list-style-type: none;
     width: 100%;
-    background-color: rgba(128,128,128, .5);
     padding: 2% 4%;
     margin: 10px 40px;
     border-radius: 30px;
 }
-.procedure ul li span{
-    color: #000;
-    font-size: 20px;
+
+.procedure li span{
+    font-size: 25px;
     font-weight: 500;
-    padding: 10px;
+    text-align:left;
+    text-shadow: #973304;
+    padding: 2%;
+    margin: 2 2;
 }
-.procedure ul li:hover{
-    background-color: rgba(245,159,89,.5);
+.lo{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2 2;
 }
 
-.procedure ul li ul{
-    color: white;
-    padding: 1% 2%;
+.fa-solid{
+    color: #412711;
 }
-.procedure ul li i{
-    color: #000;
+
+.fa-sharp{
+    color: #412711;
+}
+
+@media only screen and (max-width: 500px){
+    .background{
+        padding: 10px 20px;
+      }
+
+    .card{
+        margin-top: 22;
+    }  
+
+    .list{
+        margin: 10;
+    }
+
+    .token{
+        text-align: center;
+    }
+
+    .list ul{
+        text-align: left;
+    }
+
+    .note{
+        text-align: left;
+        padding: 6px;
+    }
+
+    .the-how{
+        text-align: center;
+    }
+
+    .link{
+        text-align: left;
+    }
+
+    .procedure{
+        margin: 20;
+    }
+
+    .procedure li{
+        margin: 10;
+    }
+
+    .procedure li ul li{
+        margin: 10;
+    }
 }
