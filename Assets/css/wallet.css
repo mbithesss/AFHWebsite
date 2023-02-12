@@ -38,7 +38,7 @@ body,html{
 
 .list{
     list-style-type: none;
-    width: 90%;
+    width: 92%;
     background-color: rgba(128,128,128, .5);
     padding: 2% 4%;
     margin: 10px 40px;
@@ -85,33 +85,38 @@ body,html{
 }
 .procedure{
     margin: 20px 60px;
+    background-color: rgba(128,128,128, .5);
+    border-radius: 30px;
+    width: 90%;
+    padding: 2% 4%;
 }
-.procedure ul{
-    display: flex;
-    color: black;
-}
-.procedure ul li{
+
+.procedure li{
     list-style-type: none;
     width: 100%;
-    background-color: rgba(128,128,128, .5);
     padding: 2% 4%;
     margin: 10px 40px;
     border-radius: 30px;
 }
-.procedure ul li span{
-    color: #000;
-    font-size: 20px;
+
+.procedure li span{
+    font-size: 25px;
     font-weight: 500;
-    padding: 10px;
+    text-align:left;
+    text-shadow: #973304;
+    padding: 2%;
+    margin: 2 2;
 }
-.procedure ul li:hover{
-    background-color: rgba(245,159,89,.5);
+.lo{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2 2;
 }
 
-.procedure ul li ul{
-    color: white;
-    padding: 1% 2%;
+.fa-solid{
+    color: #412711;
 }
-.procedure ul li i{
-    color: #000;
+
+.fa-sharp{
+    color: #412711;
 }
