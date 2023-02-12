@@ -1,11 +1,16 @@
-function toggleNav() {
-  var x = document.getElementById("nav-wrapper");
-  if (x.className === "nav-wrapper-content") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav-wrapper-content";
-  }
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menus");
+const navLink = document.querySelectorAll(".nav-links");
+
+const mobileMenu = () => {
+  hamburger.classList.toggle("active")
+  navMenu.classList.toggle("active")
 }
 
-document.getElementById("checkbox_toggle").addEventListener("change", toggleNav);
-document.getElementById("hamburger").addEventListener("click", toggleNav);
+const closeMenu = () => {
+  hamburger.classList.remove("active")
+  navMenu.classList.remove("active")
+}
+
+hamburger.addEventListener("click" , mobileMenu)
+navLink.forEach((l) => l.addEventListener("click",closeMenu))
