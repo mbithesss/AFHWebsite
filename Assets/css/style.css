@@ -535,9 +535,20 @@ text-align: center;
 
 @media only screen and (max-width: 500px) {
     .socials-intro .comm{
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 900;
             padding: 10px 0;
+        }
+        .comm{
+            font-size: 32px;
+            font-weight: 800;
+            padding: 10px 0;
+        }
+        
+        .join{
+            font-size: 18px;
+            font-weight: 300;
+            padding: 5px 0;
         }
     }
 
@@ -1076,8 +1087,8 @@ position: relative;
     }
 
     .hamburger {
-        width: 15%;
-        max-height: 85px;
+        width: 10%;
+        max-height: 35px;
         display: block;
           cursor: pointer;
       }
