@@ -240,6 +240,10 @@ margin-right: 200px;
     margin-top: 5%;
 }
 
+.content{
+    margin-top: 6%;
+}
+
 .welcoming-phrase2{
     font-weight: 900;
     padding-top: 60px;
@@ -1014,6 +1018,14 @@ position: relative;
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .dropdown-content {
+        display: none;
+        margin-left: 30%;
+        width: 200px;
+    }
+}
+
 /* end of navbar  */
 
 
@@ -1026,6 +1038,7 @@ position: relative;
 .slideshow-container {
   max-width: 100%;
   position: relative;
+  margin-top: 5%;
 }
 
 
