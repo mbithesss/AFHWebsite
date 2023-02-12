@@ -20,49 +20,79 @@
 </head>
 
 <body>
-    <section class="navigation">
-        <div class="nav-container">
-            <div class="brand">
-                <img class="img" src="./Assets/Images/AFHeditedlogo-removebg-preview.png">
-                <h1>African<span style="color: rgb(238, 187, 20);">Heritage</span></h1>
+    <div class="containerr">
+        <header class="menu-header">
+          <nav class="navbars-mobile">
+            <div class="elewa-mobile">
+                <a class="african-logo">African<span style="color: rgb(238, 187, 20);">Heritage</span></a>
             </div>
-          <nav>
-            <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
-            <ul class="nav-list">
-              <li>
-                <a href="./index.html">Home</a>
-              </li>
-              <li>
-                <a href="#howitworks">How it Works</a>
-              </li>
-
-              <li>
-                <a href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank">Whitepaper</a>
-              </li>
-              <li>
-                <a href="#!">Services</a>
-                <ul class="navbar-dropdown">
-                  <li>
-                    <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
+            <ul class="nav-menus">
+                <li class="nav-items">
+                  <a class="nav-link" href="./index.html"  ariaCurrentWhenActive="page">Home</a>
+                </li>
+                <li class="nav-items">
+                  <a class="nav-link" href="#howitworks"  ariaCurrentWhenActive="page">How It Works</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-link" href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank"  ariaCurrentWhenActive="page">Whitepaper</a>
+                </li>
+                <li class="nav-items dropdown" style="float:left;">
+                    <a class=" nav-link dropbtn">Services <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content" style="left:0;">
+                      <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
+                      <a href="./wallet.html">Add AFH To Wallet</a>
+                      <a href="#">Collaboration</a>
+                      <a href="./submitt.html">Submit Application</a>
+                    </div>
                   </li>
-                  <li>
-                    <a href="./wallet.html">Add AFH to Wallet</a>
-                  </li>
-                  <li>
-                    <a href="#">Collaborations</a>
-                  </li>
-                  <li>
-                    <a href="./submitt.html" >Submit Applications</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="./aboutt.html">About</a>
-              </li>
+                <li class="nav-items">
+                  <a class="nav-link" href="#"  ariaCurrentWhenActive="page">Contact</a>
+                </li>
             </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </nav>
-        </div>
-      </section>
+        </header>
+      
+        
+      
+        <header class="header fixed-top">
+          <nav class="navbars">
+            <div class="border">
+              <div class="elewa-text">
+                <a routerLink="#" class="home-logo"><img src="./Assets/Images/AFHeditedlogo-removebg-preview.png" alt=""></a>
+                <a class="logo">African<span style="color: rgb(238, 187, 20);">Heritage</span></a>
+              </div>
+              <ul class="nav-menu">
+                  <li class="nav-item one">
+                    <a class="nav-link" href="./index.html"  ariaCurrentWhenActive="page">Home</a>
+                  </li>
+                  <li class="nav-item one">
+                    <a class="nav-link" href="#howitworks"  ariaCurrentWhenActive="page">How It Works</a>
+                  </li>
+                  <li class="nav-item one">
+                    <a class="nav-link" href="./Assets/THE AFH WHITEPAPER.pdf" target="_blank"  ariaCurrentWhenActive="page">Whitepaper</a>
+                  </li>
+                  <li class="nav-item one dropdown" style="float:left;">
+                    <a class=" nav-link dropbtn">Services <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content" style="left:0;">
+                      <a href="https://opensea.io/collection/african-heritage-token" target="_blank">NFT</a>
+                      <a href="./wallet.html">Add AFH To Wallet</a>
+                      <a href="#">Collaboration</a>
+                      <a href="./submitt.html">Submit Application</a>
+                    </div>
+                  </li>
+                  <li class="nav-item one">
+                    <a class="nav-link" href="./aboutt.html"  ariaCurrentWhenActive="page">About</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
 
     <!-- start of carousel  -->
 
@@ -122,25 +152,25 @@
 
     <div class="section">
 
-        <div class="image"> <img src="./Assets/Images/AFHeditedlogo-removebg-preview.png" /> </div>
+        <div class="image"><img src="./Assets/Images/AFHeditedlogo-removebg-preview.png" /> </div>
 
         <div class="text">
-            <h2 class="header"> <i class="fa-sharp fa-solid fa-earth-africa"></i> A Web 3.0 Utility Token for African Society & Beyond</h2>
+            <h2 class="headerr"> <i class="fa-sharp fa-solid fa-earth-africa"></i> A Web 3.0 Utility Token for African Society & Beyond</h2>
             <p class="text-1">
             African Heritage is a cryptocurrency with a limited supply of <span
             style="color:red;font-size: 20px; font-weight: bolder;"> 1, 411, 808, 500 </span> tokens created to
             engage and provide society with utilitarian services. </p>
 
-            <h2 class="header"> <i class="fa-sharp fa-solid fa-rocket"></i> The web 3.0 Utility Token </h2>
+            <h2 class="headerr"> <i class="fa-sharp fa-solid fa-rocket"></i> The web 3.0 Utility Token </h2>
             <p class="text-1">Fully capable web 3.0 crypto token informing the future of money. AFH supports smart contratcts, DeFi,
             staking, DAOs, Proof-of-Stake high scalability,
             and fast transactions for the metaverse. </p>
 
 
-            <h2 class="header"> <i class="fa-solid fa-wallet"></i> Decentralised Finance</h2>
+            <h2 class="headerr"> <i class="fa-solid fa-wallet"></i> Decentralised Finance</h2>
            <p class="text-1">AFH supports DeFi features, including a decentralized governance DAO for stakeholder rights.</p>
 
-            <h2 class="header"> <i class="fa-solid fa-handshake"></i> Transparency and Trust</h2>
+            <h2 class="headerr"> <i class="fa-solid fa-handshake"></i> Transparency and Trust</h2>
             <p class="text-1">Each token grants voting rights in a community governance DAO. Thus, encouraging the core
             values of honesty, integrity and transparency bringing positive change into the DeFi community.
             </p>
