@@ -120,3 +120,50 @@ body,html{
 .fa-sharp{
     color: #412711;
 }
+
+@media only screen and (max-width: 500px){
+    .background{
+        padding: 10px 20px;
+      }
+
+    .card{
+        margin-top: 22;
+    }  
+
+    .list{
+        margin: 10;
+    }
+
+    .token{
+        text-align: center;
+    }
+
+    .list ul{
+        text-align: left;
+    }
+
+    .note{
+        text-align: left;
+        padding: 6px;
+    }
+
+    .the-how{
+        text-align: center;
+    }
+
+    .link{
+        text-align: left;
+    }
+
+    .procedure{
+        margin: 20;
+    }
+
+    .procedure li{
+        margin: 10;
+    }
+
+    .procedure li ul li{
+        margin: 10;
+    }
+}
