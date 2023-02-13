@@ -245,6 +245,14 @@ ol li p span{
         font-weight: 800;
         font-size: 12px;
     }
+
+    .fa-solid{
+        margin-right: 5px;
+    }
+    
+    .fa-sharp{
+        margin-right: 5px;
+    }
 }
 
 @media only screen and (max-width: 370px){
