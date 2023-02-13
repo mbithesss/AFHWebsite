@@ -10,7 +10,8 @@ form.addEventListener('submit', function(e) {
   submitBtn.disabled = true;
 
   // Add a loading animation to the submit button
-  submitBtn.style.backgroundColor = '#fff';
+  submitBtn.style.backgr
+  oundColor = '#fff';
   submitBtn.style.color = '#333';
   submitBtn.value = 'Sending...';
 

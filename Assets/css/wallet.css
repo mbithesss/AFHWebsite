@@ -27,6 +27,14 @@ body,html{
     text-transform: capitalize;
 }
 
+.list{
+    list-style-type: none;
+    background-color: rgba(128,128,128, .5);
+    padding: 2% 4%;
+    margin: 50px 40px;
+    border-radius: 30px;
+}
+
 .token{
     text-align: left;
     padding: 10px 0;
@@ -36,25 +44,15 @@ body,html{
     padding: 10px;
 }
 
-.list{
-    list-style-type: none;
-    width: 92%;
-    background-color: rgba(128,128,128, .5);
-    padding: 2% 4%;
-    margin: 10px 40px;
-    border-radius: 30px;
+.list ul li{
+    list-style-type: none;;
 }
 
-/* .list:hover{
-    color: #cf6915;
-} */
-
-.list ul li{
-    list-style-type: none;
+.list ul li p{
     color: #000;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 20px;
+    font-size: 20px;
+    padding: 20px 40px;
+    text-align: left;
 }
 
 .note{
@@ -67,6 +65,11 @@ body,html{
     font-weight: 500;
     font-size: 24px;
 }
+
+.metamask{
+    margin-top: 40px;
+}
+
 .the-how{
     text-align: center;
     padding: 10px 0;
@@ -75,96 +78,217 @@ body,html{
     color: #973304;
     text-transform: capitalize;
 }
+
 .link{
-    text-align: left;
+    text-align: center;
     padding: 10px 0;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
     color: #412711;
-    padding-left: 20px;
 }
+
 .procedure{
     margin: 20px 60px;
     background-color: rgba(128,128,128, .5);
     border-radius: 30px;
-    width: 90%;
     padding: 2% 4%;
 }
 
 .procedure li{
     list-style-type: none;
     width: 100%;
-    padding: 2% 4%;
-    margin: 10px 40px;
-    border-radius: 30px;
+    padding: 3px 40px;
 }
 
-.procedure li span{
-    font-size: 25px;
-    font-weight: 500;
+.procedure li p{
+    font-size: 20px;
     text-align:left;
     text-shadow: #973304;
-    padding: 2%;
-    margin: 2 2;
+    padding: 5px 0;
 }
-.lo{
-    font-size: 20px;
-    font-weight: 700;
+ol li p {
+    font-size: 16px;
     padding: 2 2;
+    color: #412711;
+}
+
+ol li p span{
+    color: #000;
+    font-weight: 800;
 }
 
 .fa-solid{
     color: #412711;
+    margin-right: 10px;
 }
 
 .fa-sharp{
     color: #412711;
+    margin-right: 20px;
 }
 
-@media only screen and (max-width: 500px){
-    .background{
-        padding: 10px 20px;
-      }
-
+@media only screen and (max-width: 850px){
     .card{
-        margin-top: 22;
-    }  
+        width: 100%;
+        padding-top: 40px;
+    }
+    
+    .how{
+        font-size: 28px;
+    }
 
     .list{
-        margin: 10;
+        padding: 4% 4%;
+        margin: 20px 5px;
     }
 
     .token{
         text-align: center;
+        padding: 10px 0;
+        font-size: 26px;
     }
 
-    .list ul{
-        text-align: left;
+    .list ul li p{
+        font-size: 18px;
     }
 
     .note{
-        text-align: left;
-        padding: 6px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 150%;
+    }
+    
+    .note span{
+        color: white;
+        font-weight: 500;
+        font-size: 22px;
     }
 
     .the-how{
-        text-align: center;
+        font-size: 28px;
     }
 
     .link{
-        text-align: left;
+        font-size: 26px;
     }
 
     .procedure{
-        margin: 20;
+        margin: 20px 10px;
+        padding: 2% 0;
+    }
+    
+    .procedure li p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    ol{
+        margin-left: -15%;
+    }
+    ol li p {
+        font-size: 14px;
+        color: #412711;
     }
 
-    .procedure li{
-        margin: 10;
+    ol li p span{
+        color: #000;
+        font-weight: 800;
+        font-size: 12px;
     }
 
-    .procedure li ul li{
-        margin: 10;
+    ol li p .span{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .card{
+        margin-top: 20px;
+        padding: 2% 5px;
+    }
+
+    .how{
+        font-size: 20px;
+    }
+
+    .list{
+        padding: 4% 5px;
+        margin: 20px 5px;
+    }
+
+    .token{
+        font-size: 19px;
+    }
+
+    .list ul li p{
+        font-size: 16px;
+    }
+
+    .note{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 150%;
+        padding: 5px;
+    }
+    
+    .note span{
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .the-how{
+        font-size: 20px;
+    }
+
+    .link{
+        font-size: 19px;
+    }
+
+    .procedure{
+        margin: 20px 5px;
+        padding: 20px 0;
+    }
+    
+    .procedure li p{
+        font-size: 16px;
+    }
+
+    ol li p {
+        font-size: 14px;
+        color: #412711;
+    }
+
+    ol li p span{
+        color: #000;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    .fa-solid{
+        margin-right: 5px;
+    }
+    
+    .fa-sharp{
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 370px){
+    ol li p {
+        font-size: 14px;
+        color: #412711;
+    }
+
+    ol li p span{
+        color: #000;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    ol li p .span{
+        font-size: 10px;
     }
 
     /* .val .span ul li{
