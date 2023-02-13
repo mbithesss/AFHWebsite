@@ -184,7 +184,7 @@ ol li p span{
 
 @media only screen and (max-width: 500px){
     ol{
-        margin-left: -20%;
+        margin-left: -15%;
     }
     ol li p {
         font-size: 14px;
