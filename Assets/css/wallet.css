@@ -183,6 +183,9 @@ ol li p span{
 }
 
 @media only screen and (max-width: 500px){
+    ol{
+        margin-left: -20%;
+    }
     ol li p {
         font-size: 14px;
         color: #412711;
