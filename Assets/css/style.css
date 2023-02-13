@@ -1371,13 +1371,11 @@ position: relative;
     display: block;
     padding: 10px 10px;
     width: 400px;
-    background-color: red;
   }
   .info{
     padding: 10px 0;
     margin-right: 0;
     color: #fff;
-    background-color: blue;
   }
 }
 
