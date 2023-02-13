@@ -277,10 +277,11 @@ body,html{
     }
 
     .hamburger {
+      margin-top: 2%;
         width: 10%;
         max-height: 25px;
         display: block;
-          cursor: pointer;
+        cursor: pointer;
       }
 
       .bar{
@@ -492,7 +493,7 @@ body,html{
 
     .fade .carousel-text {
       position: absolute;
-      top: 5%;
+      top: 20%;
       left: 0;
       color: #fff;
       text-align: center;
@@ -505,10 +506,10 @@ body,html{
     }
     
     .subtitle {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 0 20px;
-    margin-top: 10px; 
+      font-size: 16px;
+      font-weight: 600;
+      padding: 0 0;
+      margin-top: 10px; 
     }
 
   .partner{
@@ -1004,7 +1005,6 @@ text-align: center;
 .social-menu ul li{
     list-style: none;
     padding: 10px;
-    /* width: 100%; */
 }
 
 .social-menu ul li a{
@@ -1069,7 +1069,7 @@ text-align: center;
         }
         
         .join{
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 300;
             padding: 5px 0;
         }
