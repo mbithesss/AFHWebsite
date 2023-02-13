@@ -121,7 +121,7 @@ body,html{
     color: #412711;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 450px){
     .background{
         padding: 10px 20px;
       }

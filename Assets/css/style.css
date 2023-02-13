@@ -122,7 +122,7 @@ body,html{
 }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .Welcoming-phrase{
         font-weight: 900;
         padding-top: 20px;
@@ -372,7 +372,11 @@ margin-right: 200px;
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
+  .content{
+        margin-top: 15%;
+    }
+
     .welcoming-phrase2{
        font-size: 22px; 
        padding: 0 10px;
@@ -389,6 +393,13 @@ margin-right: 200px;
         padding-bottom: 20px;
         padding-top: 0;
     }
+
+    .image-11{
+      width: 100%;
+      margin-left: 1%;
+      margin-top: 40px;
+  }
+
     .section-11{
         padding: 20px 20px;
       }
@@ -533,10 +544,40 @@ text-align: center;
     
 }
 
+@media only screen and (max-width: 450px) {
+    .socials-intro .comm{
+            font-size: 22px;
+            font-weight: 900;
+            padding: 10px 0;
+        }
+        .comm{
+            font-size: 32px;
+            font-weight: 800;
+            padding: 10px 0;
+        }
+        
+        .join{
+            font-size: 18px;
+            font-weight: 300;
+            padding: 5px 0;
+        }
 
-.socials-intro{
-    text-align: center;
-}
+        .socials-intro{
+          padding-top: 20px;
+          }
+
+        .social-menu{
+          padding: 30px 0;
+      }
+
+      .social-menu ul li a{
+        padding: 15px;
+    }
+    }
+
+
+
+
 
 .wrapper{
     padding: 10px 40px;
@@ -606,7 +647,7 @@ position: relative;
     content: "";
     height: 15px;
     width: 15px;
-    background:  #f59f59;;
+    background:  #f59f59;
     border-top: 50px;
     top: 18px;
     transform: rotate(45deg);
@@ -941,7 +982,7 @@ position: relative;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 450px) {
     .nav-item {
       margin-left: 0 !important;
     }
@@ -1063,7 +1104,7 @@ position: relative;
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 450px) {
     .navbars-mobile{
         margin-top: -5%;
         display: flex;
@@ -1077,13 +1118,13 @@ position: relative;
     }
 
     .african-logo{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
     }
 
     .hamburger {
-        width: 15%;
-        max-height: 85px;
+        width: 10%;
+        max-height: 25px;
         display: block;
           cursor: pointer;
       }
@@ -1091,7 +1132,7 @@ position: relative;
       .bar{
         height: 3px;
         width: 40px;
-        margin: 5px 0;
+        margin: 4px 0;
         float: right;
       }
 
@@ -1101,9 +1142,9 @@ position: relative;
         top: 100%;
         padding: 10% 0;
         flex-direction: column;
-        background-color: #cf6915;
+        background-color: #c2814c;
         width: 99%;
-        height: 70vh;
+        height: 50vh;
         margin-left: 0;
         border-radius: 5px;
         text-align: center;
@@ -1159,7 +1200,7 @@ position: relative;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .dropdown-content {
         display: none;
         margin-left: 30%;
@@ -1285,7 +1326,7 @@ position: relative;
     }
   }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .fade img{
         height: 40vh;
     }
@@ -1366,7 +1407,7 @@ position: relative;
     }   
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .benefits{
         margin: 20px 15px;
     }
