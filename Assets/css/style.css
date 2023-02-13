@@ -1375,7 +1375,7 @@ position: relative;
   }
   .info{
     padding: 10px 0;
-    /* margin-right: 40px; */
+    margin-right: 0;
     color: #fff;
     background-color: blue;
   }
@@ -1396,7 +1396,7 @@ position: relative;
 
     .info{
         padding: 10px 0;
-        /* margin-right: 80px; */
+        margin-right: 0;
         color: #fff;
     }
 
