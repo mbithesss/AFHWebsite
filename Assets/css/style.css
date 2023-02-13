@@ -1366,6 +1366,14 @@ position: relative;
     }
 }
 
+@media only screen and (max-width: 500px) {
+  .more-info{
+    display: block;
+    padding: 10px 20px;
+    width: 500px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
 
     #information {
