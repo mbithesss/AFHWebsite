@@ -68,9 +68,11 @@ body,html{
     justify-content: space-between;
   }
 
+
+
   .home-logo img{
     height: 8vh;
-    width: 8vh;
+    /* width: 8vh; */
   }
 
   .logo{
@@ -233,6 +235,7 @@ body,html{
     .elewa-mobile{
         width: 80%;
         padding-left: 10px;
+        background-color: red;
     }
 
     .home-logo img{
@@ -242,6 +245,21 @@ body,html{
     .african-logo{
         font-size: 36px;
         font-weight: 600;
+        padding-top: -20 !important;
+        background-color: blue;
+      
+    }
+
+    .home-logo2{
+      color: #fff;
+      justify-content: space-between;
+      /* margin-top: 20%; */
+    }
+  
+  
+    .home-logo2 img{
+      height: 4vh;
+      /* width: 4vh; */
     }
    
     .hamburger {
@@ -270,14 +288,23 @@ body,html{
     .elewa-mobile{
         width: 80%;
         padding-left: 0;
-        margin-top: 4%;
+        /* margin-top: 4%; */
     }
 
     .african-logo{
         font-size: 20px;
         font-weight: 600;
     }
-
+    .home-logo2{
+      color: #fff;
+      justify-content: space-between;
+    }
+  
+  
+    .home-logo2 img{
+      height: 4vh;
+      /* width: 4vh; */
+    }
     .hamburger {
       margin-top: 2%;
         width: 10%;
