@@ -117,13 +117,13 @@ body,html{
   }
   
   .menu-header{
-    background-color: #cf6915;
+    /* background-color: #cf6915; */
     height: 8vh;
     padding-top: 20px;
   }
   
   .bar{
-    background: rgb(238, 187, 20);;
+    background: rgb(238, 187, 20);
   }
   
   .menu-header{
@@ -578,7 +578,7 @@ body,html{
 
 .text-1{
     font-size: 22px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
 }
 
 
