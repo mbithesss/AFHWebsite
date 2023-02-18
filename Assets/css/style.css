@@ -160,7 +160,7 @@ body,html{
       top: 100%;
       padding: 10% 0;
       flex-direction: column;
-      background-color: #cf6915;
+      background-color:  #cf6915;
       width: 99%;
       height: 50vh;
       margin-left: 0;
@@ -233,10 +233,10 @@ body,html{
     }
 
     .elewa-mobile{
+         display: flex;
         width: 80%;
         padding-left: 10px;
-        background-color: red;
-    }
+       }
 
     .home-logo img{
         margin-left: 20px;
@@ -245,9 +245,7 @@ body,html{
     .african-logo{
         font-size: 36px;
         font-weight: 600;
-        padding-top: -20 !important;
-        background-color: blue;
-      
+        margin-left: 20px;
     }
 
     .home-logo2{
@@ -288,13 +286,16 @@ body,html{
     .elewa-mobile{
         width: 80%;
         padding-left: 0;
-        /* margin-top: 4%; */
+        display: flex;
+        margin-top: 4%;
     }
 
     .african-logo{
         font-size: 20px;
         font-weight: 600;
+        margin-left: 10px;
     }
+
     .home-logo2{
       color: #fff;
       justify-content: space-between;
@@ -304,6 +305,7 @@ body,html{
     .home-logo2 img{
       height: 4vh;
       /* width: 4vh; */
+      margin-top: -10%;
     }
     .hamburger {
       margin-top: 2%;
@@ -568,9 +570,80 @@ body,html{
 }
 
 .container{
-    /* padding-top: 100px; */
-    display:grid;
-    grid-template-columns: 1fr;
+  padding-top: 100px;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+/*Portfolio Styles*/
+.portfolio-items-wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.portfolio-item-wrapper{
+  position: relative;
+}
+
+.portfolio-img-background{
+  transition: 0.5s;
+  height: 350px;
+  width:100%;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+
+.portfolio-img-background:hover{
+  transform:scale(0.9);
+  z-index: 2;
+  
+}
+
+@media only screen and (max-width: 850px) {
+  .container{
+    padding-top: 20px;
+  }
+
+  .portfolio-items-wrapper{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+  }
+
+  .portfolio-item-wrapper{
+      position: relative;
+  }
+
+  .Portfolio-img-background{
+      height: 20vh;
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container{
+    padding-top: 10px;
+  }
+  .content-wrapper{
+      margin-top: 0;
+  }
+  .portfolio-items-wrapper{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      
+  }
+  .Portfolio-img-background{
+      height: 20vh;
+      width: 100%;
+  }
+  .hide{
+      display: none;
+
+  }
+
 }
 
 
@@ -769,12 +842,12 @@ margin-right: 200px;
 
 
 .content{
-    margin-top: 6%;
+    margin-top: 2%;
 }
 
 .welcoming-phrase2{
     font-weight: 900;
-    padding-top: 60px;
+    padding-top: 10px;
     font-family:'poppins', sans-serif; 
     color: rgb(146, 56, 14);
     font-size: 45px;
@@ -916,7 +989,7 @@ margin-right: 200px;
 
 @media only screen and (max-width: 450px) {
   .content{
-        margin-top: 15%;
+        margin-top: 5%;
     }
 
     .welcoming-phrase2{
